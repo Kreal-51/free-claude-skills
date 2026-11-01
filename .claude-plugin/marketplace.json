@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "kissmyskills-free",
+  "description": "Free, self-contained Claude skills for common professional roles, by KissMySkills. MIT licensed.",
+  "owner": {
+    "name": "KissMySkills",
+    "email": "hello@kissmyskills.com",
+    "url": "https://kissmyskills.com"
+  },
+  "plugins": [
+    {
+      "name": "kms-free-skills",
+      "source": "./",
+      "description": "21 free role-based skills: travel agent, scriptwriter, contract reviewer, controller, recruiter, Google Ads specialist and more. No account, no server.",
+      "category": "productivity",
+      "homepage": "https://kissmyskills.com"
+    }
+  ]
+}
